@@ -20,7 +20,7 @@ const ContactList = ({ contacts, onDeleteContact }) => (
 );
 
 ContactList.prototype = {
-  contacts: PropTypes.object.isrequired,
+  contacts: PropTypes.object.isRequired,
 };
 
 export default ContactList;
